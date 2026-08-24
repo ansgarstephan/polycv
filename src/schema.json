@@ -215,10 +215,11 @@
           "description": "Typst paper name (for example, \"us-letter\" or \"a4\"). Defaults to US Letter."
         },
         "locale": {
-          "description": "Language for section titles and month names.",
+          "description": "Language for section titles, month names and the ongoing-position label.",
           "enum": [
             "en",
-            "fr"
+            "fr",
+            "de"
           ]
         },
         "ats-split": {

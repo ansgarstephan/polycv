@@ -8,7 +8,7 @@
 meta:                                         # Layout/config block; consumed by the template, not part of the CV data.
   photo: <string>                             # Path to the profile photo, relative to the .typ file.
   paper: <string>                             # Typst paper name (for example, "us-letter" or "a4"). Defaults to US Letter.
-  locale: <"en" | "fr">                       # Language for section titles and month names.
+  locale: <"en" | "fr" | "de">                # Language for section titles, month names and the ongoing-position label.
   header-band: <bool>                         # Full-width header band layout (photo on its left).
   header-band-summary: <bool>                 # With header-band, render the summary inside the header.
   header-band-contact: <bool>                 # With header-band, keep the contact line in the band (false = sidebar).
